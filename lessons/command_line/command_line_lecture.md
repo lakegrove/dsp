@@ -191,7 +191,7 @@ We can get even fancier by adding a second flag
 ls -lh
 ```
 
-> What changed?
+> What changed? Files are now divided by 1000 for the byte size to k
 
 If instead copying we just want to change the name of a file, we can do:
 
