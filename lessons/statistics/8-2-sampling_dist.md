@@ -20,6 +20,8 @@ As n increases we see a decrease in standard error and a tightening of the 90% c
 
 If the question is actually about goal scoring one 8-3... then below if the code, I ended up having to have a peak at the solution.  My RSME was roughly 1.4 with a 2 lambda and regardless of the number of iterations performed (i.e. 1000 to 100000).  Although mean error does decrease with more iterations it was darn near zero throughout indicating that this technique is roughly unbiased.
 
+As for sampling error, as lambda increases so does the standard error. 
+
 
 def SimulateGame(lam):
     """Simulates a game and returns the estimated goal-scoring rate.
